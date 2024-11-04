@@ -10,8 +10,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import styles from "./Carousel.module.css";
 
-// By default Swiper React uses core version of Swiper (without any additional modules). 
-// If you want to use Navigation, Pagination and other modules, you have to install them first.
+//No use for this currently 
 import { Navigation } from 'swiper/modules';
 
 
@@ -23,7 +22,9 @@ const Controls=({data})=>{
         swiper.slideTo(0,1)
     },[data])
 
-    return <></>
+    return <>
+    
+    </>
 }
 
 const Carousel = ({data,renderCardComponent}) => {
